@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containerMain {
+  display: flex;
+  justify-content: center;
+}
+.mainLeft {
+  margin-right: 80px;
+}
+.mainLeft img {
+  width: 365px;
+  height: 372px;
+}
+.mainRight h1 {
+  color: #ffff;
+  font-size: 64px;
+  font-family: 'MuseoModerno', sans-serif;
+  width: 580px;
+  line-height: 66px;
+}
+.mainRight div {
+  margin-bottom: 8px;
+}
+.mainRight p {
+  color: rgba(255, 255, 255, 0.7);
+  width: 530px;
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+.mainRight h6 {
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
+  opacity: 0.6;
+  margin-bottom: 8px;
+}
+.mainRight strong {
+  color: #E3C819;
+}
+.containerMain {
+  padding: 210px 0px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+}
