@@ -4,7 +4,7 @@ import imgCss from "./img/css-3.png";
 import imgJS from "./img/javascript.png";
 import imgReact from "./img/react.png";
 import imgNext from "./img/nextjs.png";
-import svgVite from "./img/vite.svg";
+// import svgVite from "./img/vite.svg";
 import svgAvatar from "./img/avatar.svg";
 
 function SectionSkill() {
@@ -34,10 +34,10 @@ function SectionSkill() {
               <img src={imgNext} />
               <p>Next.Js</p>
             </div>
-            <div>
+            {/* <div>
               <img src={svgVite} />
               <p>Vite</p>
-            </div>
+            </div> */}
           </div>
           <div className={Styles.SectionSkillRight}>
             <img src={svgAvatar} />
