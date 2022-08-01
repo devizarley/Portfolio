@@ -1,0 +1,44 @@
+section.sectionSkill {
+  background-color: #121216;
+  height: 1000px;
+  box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 15%);
+  padding: 150px 0;
+}
+.containerSectionSkill {
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.containerSectionSkill h1 {
+  font-size: 43px;
+  font-family: "MuseoModerno", sans-serif;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+.containerSectionSkill img,
+svg {
+  height: 40px;
+  width: 40px;
+}
+.SectionSkillLeft div {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin-bottom: 1.5vw;
+}
+.SectionSkillLeft div p {
+  margin-left: 10px;
+}
+.SectionSkillRight img {
+  width: 443px;
+  height: 465px;
+}
+
+.containerContentSkill {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,48 @@
+header a {
+  font-family: "Jura", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  margin-right: 26px;
+}
+h1 {
+  font-family: "Jura", sans-serif;
+  color: #ffffff;
+  font-size: 31px;
+}
+strong {
+  color: #684ebf;
+}
+header {
+  background-color: #121216;
+  box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 15%);
+  height: 87px;
+  padding: 0 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 14;
+}
+.containerHeader {
+  padding-top: 20px;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-content: space-between;
+}
+.networks {
+  margin-top: 31vw;
+  margin-left: 3vh;
+}
+.networks img {
+  display: flex;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+}
+.networks hr {
+  height: 20vh;
+  width: 0.2vw;
+  margin-left: 16px;
+  background-color: white;
+}

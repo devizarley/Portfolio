@@ -1,4 +1,4 @@
-import Styles from "./Main.module.css";
+import Styles from "./Styles/Main.module.css";
 import Button from "./Button/Button";
 import ImgIzarley from "./img/img_port.png";
 
@@ -19,11 +19,9 @@ function Main() {
           </div>
           <p>
             Sejam bem vindos, procurando um desenvolvedor web qualificado para
-            suas necessidades? posso te ajudar nisso! Atualmente sendo
-            especializado em{" "}
-            <strong>
-              React.js, Next.js, GraphQL, Vite, Apollo, JavaScript, Html, Css.
-            </strong>
+            suprir suas necessidades? Posso te ajudar nisso! Atualmente sendo
+            especializado em sites modernos e responsivos! Confira minhas
+            habilidades atuais clicando <a href="">aqui</a>!
           </p>
           <Button button="CONFIRA MEUS PROJETOS"></Button>
         </div>

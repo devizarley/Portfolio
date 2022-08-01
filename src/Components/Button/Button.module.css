@@ -1,7 +1,9 @@
 button {
   padding: 8px 16px;
-  background-color: #E3C819;
+  background-color: #684ebf;
   font-size: 18px;
   border: none;
-  border-radius:4px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Jura", sans-serif;
 }

@@ -6,10 +6,10 @@ function Particle() {
     console.log(main);
     await loadFull(main);
   };
+
   const particlesLoaded = (container) => {
     console.log(container);
   };
-
   return (
     <Particles
       id="tsparticles"
@@ -22,12 +22,18 @@ function Particle() {
         },
         fpsLimit: 120,
         particles: {
-          number: {
-            value: 50,
+          _number: {
+            value: 55,
             density: {
               enable: true,
-              value_area: 800,
+              value_area: 900,
             },
+          },
+          get number() {
+            return this["_number"];
+          },
+          set number(value) {
+            this["_number"] = value;
           },
           color: {
             value: "",
@@ -40,8 +46,8 @@ function Particle() {
             random: false,
             anim: {
               enable: false,
-              speed: 10,
-              opacity_min: 1,
+              speed: 0,
+              opacity_min: 0.1,
               sync: false,
             },
           },
@@ -50,7 +56,7 @@ function Particle() {
             random: true,
             anim: {
               enable: false,
-              speed: 20,
+              speed: 1,
               size_min: 0.1,
               sync: false,
             },
@@ -58,14 +64,14 @@ function Particle() {
           line_linked: {
             enable: true,
             distance: 150,
-            color: "#535353",
+            color: "#ffff",
             warp: true,
-            opacity: 1,
+            opacity: 0.25,
             width: 1,
           },
           move: {
             enable: true,
-            speed: 6,
+            speed: 2,
             direction: "none",
             random: false,
             straight: false,
@@ -117,7 +123,7 @@ function Particle() {
         },
         retina_detect: true,
         background: {
-          color: "#282828",
+          color: "#121216",
           image: "",
           position: "50% 50%",
           repeat: "no-repeat",
