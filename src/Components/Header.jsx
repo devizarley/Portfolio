@@ -15,7 +15,7 @@ function Header() {
         </div>
         <div className={Style.headerRight}>
           <a href="">Home</a>
-          <a href="">Projects</a>
+          <a href="">Projetos</a>
           <a href="">Sobre</a>
           <Button button="Contact me" />
         </div>

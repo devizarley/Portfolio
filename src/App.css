@@ -35,3 +35,6 @@ footer {
   width: 2vh;
   margin-right: 0.1vw;
 }
+button {
+  cursor: pointer;
+}
