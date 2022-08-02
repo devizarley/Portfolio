@@ -6,6 +6,7 @@ import SectionSkills from "./Components/SectionSkill";
 import SectionProjects from "./Components/SectionProjects";
 import SectionCertificates from "./Components/SectionCertificates";
 import SectionContact from "./Components/SectionContact";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <SectionProjects />
       <SectionCertificates />
       <SectionContact />
+      <Footer />
     </>
   );
 }

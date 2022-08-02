@@ -27,6 +27,9 @@ section.sectionContact {
 .bottomContainer {
   display: flex;
 }
+form button {
+  margin-top: 1vh;
+}
 input {
   width: 533px;
   height: 49px;
@@ -42,4 +45,8 @@ textarea#msg {
   font-family: "Open Sans", sans-serif;
   padding: 10px;
   border-radius: 10px;
+}
+span {
+  color: red;
+  display: block;
 }
