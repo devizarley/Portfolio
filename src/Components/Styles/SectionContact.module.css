@@ -1,0 +1,45 @@
+section.sectionContact {
+  height: 1000px;
+  box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 15%);
+  padding: 150px 0;
+}
+.containerSectionContact {
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.topContainer {
+  text-align: center;
+  color: white;
+  margin-bottom: 10vh;
+}
+.topContainer h1 {
+  font-size: 43px;
+  font-family: "MuseoModerno", sans-serif;
+  text-align: center;
+}
+.containerSectionContact p {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 5px;
+}
+.bottomContainer {
+  display: flex;
+}
+input {
+  width: 533px;
+  height: 49px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  margin-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+textarea#msg {
+  height: 165px;
+  width: 533px;
+  font-family: "Open Sans", sans-serif;
+  padding: 10px;
+  border-radius: 10px;
+}

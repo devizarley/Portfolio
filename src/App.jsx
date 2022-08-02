@@ -5,6 +5,7 @@ import Main from "./Components/Main";
 import SectionSkills from "./Components/SectionSkill";
 import SectionProjects from "./Components/SectionProjects";
 import SectionCertificates from "./Components/SectionCertificates";
+import SectionContact from "./Components/SectionContact";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <SectionSkills />
       <SectionProjects />
       <SectionCertificates />
+      <SectionContact />
     </>
   );
 }
