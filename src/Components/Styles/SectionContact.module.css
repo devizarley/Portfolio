@@ -50,3 +50,12 @@ span {
   color: red;
   display: block;
 }
+@media (max-width: 1055px) {
+  .bottomContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+  section.sectionContact {
+    height: 100%;
+  }
+}

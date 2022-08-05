@@ -7,7 +7,9 @@ function Main() {
     <main>
       <div className={Styles.containerMain}>
         <div className={Styles.mainLeft}>
-          <img src={ImgIzarley} alt="" />
+          <div>
+            <img src={ImgIzarley} alt="" />
+          </div>
         </div>
         <div className={Styles.mainRight}>
           <h6>Desenvolvedor web</h6>

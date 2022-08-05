@@ -1,31 +1,37 @@
+import { useState } from "react";
 import Button from "./Button/Button";
 import Style from "./Styles/Header.module.css";
-import imgLinkedin from "./img/linkedin.png";
-import imgInstagram from "./img/instagram.png";
-import imgGithub from "./img/github.png";
+import "./Styles/hamburger.css";
 
 function Header() {
+  const [active, setMode] = useState(false);
+  const ToggleMode = () => {
+    setMode(!active);
+  };
   return (
     <header>
-      <div className={Style.containerHeader}>
-        <div className={Style.headerLeft}>
+      <div className={Style.containerHeader} id={active ? "menuRight" : ""}>
+        <div className={active ? "menu menuClose" : "menu menuOpen"}>
           <h1>
             {"{}"} my <strong>portfolio</strong>
           </h1>
         </div>
-        <div className={Style.headerRight}>
-          <a href="">Home</a>
-          <a href="">Projetos</a>
-          <a href="">Sobre</a>
-          <Button button="Contact me" />
+        <div className="list">
+          <div className={active ? "menu menuOpen" : "menu menuClose"}>
+            <a href="">Home</a>
+            <a href="">Projetos</a>
+            <a href="">Sobre</a>
+            <Button button="Contact me" />
+          </div>
+        </div>
+        <div
+          className={active ? "icon iconActive" : "icon"}
+          onClick={ToggleMode}
+          id={Style.iconHamburger}
+        >
+          <div className="hamburger hamburgerIcon"></div>
         </div>
       </div>
-      {/* <div className={Style.networks}>
-        <img src={imgInstagram} />
-        <img src={imgGithub} />
-        <img src={imgLinkedin} />
-        <hr />
-      </div> */}
     </header>
   );
 }

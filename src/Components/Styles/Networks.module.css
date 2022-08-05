@@ -1,0 +1,23 @@
+.networks {
+  position: fixed;
+  margin-top: 65vh;
+  margin-left: 3vh;
+  z-index: 1000;
+}
+.networks img {
+  display: flex;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+}
+.networks hr {
+  height: 20vh;
+  width: 0.2vw;
+  margin-left: 16px;
+  background-color: white;
+}
+@media (max-width: 1250px) {
+  .networks {
+    display: none;
+  }
+}

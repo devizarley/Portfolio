@@ -7,12 +7,14 @@ import SectionProjects from "./Components/SectionProjects";
 import SectionCertificates from "./Components/SectionCertificates";
 import SectionContact from "./Components/SectionContact";
 import Footer from "./Components/Footer";
+import Networks from "./Components/Networks";
 
 function App() {
   return (
     <>
       <Particle />
       <Header />
+      <Networks />
       <Main />
       <SectionSkills />
       <SectionProjects />

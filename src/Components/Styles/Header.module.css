@@ -30,19 +30,11 @@ header {
   margin: auto;
   justify-content: space-between;
 }
-.networks {
-  margin-top: 31vw;
-  margin-left: 3vh;
+#iconHamburger {
+  display: none;
 }
-.networks img {
-  display: flex;
-  margin-bottom: 10px;
-  width: 40px;
-  height: 40px;
-}
-.networks hr {
-  height: 20vh;
-  width: 0.2vw;
-  margin-left: 16px;
-  background-color: white;
+@media (max-width: 700px) {
+  #iconHamburger {
+    display: block;
+  }
 }
