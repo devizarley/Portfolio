@@ -2,6 +2,7 @@ section.sectionContact {
   height: 1000px;
   box-shadow: 0px 0px 19px 0px rgb(0 0 0 / 15%);
   padding: 150px 0;
+  width: 100%;
 }
 .containerSectionContact {
   max-width: 1080px;
@@ -57,5 +58,20 @@ span {
   }
   section.sectionContact {
     height: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .bottomContainer img {
+    display: none;
+  }
+  .topContainer h1 {
+    font-size: 20px;
+  }
+  .topContainer p {
+    font-size: 10px;
+  }
+  .bottomContainer div form input,
+  textarea#msg {
+    width: 350px;
   }
 }

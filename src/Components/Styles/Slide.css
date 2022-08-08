@@ -8,3 +8,8 @@
     height: 400px;
   }
 }
+@media (max-width: 600px) {
+  .swiper {
+    width: 100%;
+  }
+}

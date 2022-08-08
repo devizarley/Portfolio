@@ -37,4 +37,10 @@ header {
   #iconHamburger {
     display: block;
   }
+  header {
+    height: 70px;
+  }
+  header h1 {
+    font-size: 20px;
+  }
 }

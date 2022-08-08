@@ -56,6 +56,20 @@
   .menu.menuClose {
     display: none;
   }
+  .hamburger {
+    margin-top: -16px;
+    width: 37px;
+    height: 4px;
+  }
+  .hamburger::before {
+    height: 4px;
+  }
+  .hamburger::after {
+    height: 4px;
+  }
+  .hamburger {
+    margin-top: -16px;
+  }
   .list {
     margin-right: 20px;
   }
