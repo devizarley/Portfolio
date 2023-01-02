@@ -20,10 +20,10 @@ function Main() {
             </h1>
           </div>
           <p>
-            Sejam bem vindos, procurando um desenvolvedor web qualificado para
-            suprir suas necessidades? Posso te ajudar nisso! Atualmente sendo
-            especializado em sites modernos e responsivos! Confira minhas
-            habilidades atuais clicando <a href="">aqui</a>!
+            Sejam bem vindos, procurando um desenvolvedor mobile em Java/Kotlin
+            qualificado para suprir suas necessidades? Posso te ajudar nisso!
+            Atualmente sendo especializado em aplicações android na linguagem
+            Java e Kotlin! Confira minhas habilidades atuais logo abaixo.
           </p>
           <Button button="CONFIRA MEUS PROJETOS"></Button>
         </div>

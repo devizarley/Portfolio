@@ -1,0 +1,73 @@
+section.sectionSkill {
+  background-color: #121216;
+  height: 20%;
+  padding: 0 0 150px 0;
+  width: 100%;
+}
+.containerSectionSkill {
+  max-width: 1080px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.containerSectionSkill h1 {
+  font-size: 43px;
+  font-family: "MuseoModerno", sans-serif;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+.containerSectionSkill img,
+svg {
+  height: 40px;
+  width: 40px;
+}
+.SectionSkillLeft div {
+  display: flex;
+  align-items: center;
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  margin-bottom: 1.5vw;
+}
+.SectionSkillLeft div p {
+  margin-left: 10px;
+}
+.SectionSkillRight img {
+  width: 443px;
+  height: 465px;
+}
+
+.containerContentSkill {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1055px) {
+  .containerSectionSkill {
+    flex-direction: column;
+    align-items: center;
+    padding: 150px 0px;
+  }
+  section.sectionSkill {
+    height: 100%;
+    padding: 0px;
+  }
+}
+@media (max-width: 600px) {
+  .containerSectionSkill h1 {
+    font-size: 20px;
+  }
+  .SectionSkillLeft div img {
+    width: 25px;
+    height: 25px;
+  }
+  .SectionSkillLeft div p {
+    font-size: 12px;
+  }
+  section.sectionSkill .containerContentSkill {
+    justify-content: center;
+  }
+  section.sectionSkill .SectionSkillRight {
+    display: none;
+  }
+}

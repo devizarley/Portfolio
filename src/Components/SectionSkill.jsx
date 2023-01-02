@@ -1,10 +1,8 @@
 import Styles from "./Styles/SectionSkills.module.css";
-import imgHtml from "./img/html.png";
-import imgCss from "./img/css-3.png";
-import imgJS from "./img/javascript.png";
-import imgReact from "./img/react.png";
-import imgNext from "./img/nextjs.png";
-// import svgVite from "./img/vite.svg";
+import imgJava from "./img/icon-java.jpg";
+import imgKotlin from "./img/icon-kotlin.png";
+import imgFirebase from "./img/icon-firebase.png";
+import imgSqlite from "./img/icon-sqlite.png";
 import svgAvatar from "./img/avatar.svg";
 
 function SectionSkill() {
@@ -15,29 +13,21 @@ function SectionSkill() {
         <div className={Styles.containerContentSkill}>
           <div className={Styles.SectionSkillLeft}>
             <div>
-              <img src={imgHtml} />
-              <p>HTML</p>
+              <img src={imgJava} />
+              <p>Java</p>
             </div>
             <div>
-              <img src={imgCss} />
-              <p>CSS</p>
+              <img src={imgKotlin} />
+              <p>Kotlin</p>
             </div>
             <div>
-              <img src={imgJS} />
-              <p>JavaScript</p>
+              <img src={imgFirebase} />
+              <p>Firebase</p>
             </div>
             <div>
-              <img src={imgReact} />
-              <p>React.Js</p>
+              <img src={imgSqlite} />
+              <p>SQLite</p>
             </div>
-            <div>
-              <img src={imgNext} />
-              <p>Next.Js</p>
-            </div>
-            {/* <div>
-              <img src={svgVite} />
-              <p>Vite</p>
-            </div> */}
           </div>
           <div className={Styles.SectionSkillRight}>
             <img src={svgAvatar} />

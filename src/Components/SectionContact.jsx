@@ -27,7 +27,7 @@ function SectionContact() {
     <section className={Styles.sectionContact}>
       <div className={Styles.containerSectionContact}>
         <div className={Styles.topContainer}>
-          <h1>Contate-me</h1>
+          <h1>Contato</h1>
           <p>Entre em contato, irei responde-lo o mais rápido possivel!</p>
         </div>
         <div className={Styles.bottomContainer}>

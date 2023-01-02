@@ -21,7 +21,9 @@ function Header() {
             <a href="">Home</a>
             <a href="">Projetos</a>
             <a href="">Sobre</a>
-            <Button button="Contact me" />
+            <a href="https://api.whatsapp.com/send/?phone=%2B5588999016144&text&type=phone_number&app_absent=0">
+              <Button button="Contact me" />
+            </a>
           </div>
         </div>
         <div
