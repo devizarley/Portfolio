@@ -12,6 +12,9 @@ function SectionSkill() {
       <div className={Styles.containerSectionSkill}>
         <h1>Conhecimentos atuais</h1>
         <div className={Styles.containerContentSkill}>
+          <div className={Styles.SectionSkillRight}>
+            <img src={svgAvatar} />
+          </div>
           <div className={Styles.SectionSkillLeft}>
             <div>
               <img src={imgHtml} />
@@ -37,9 +40,6 @@ function SectionSkill() {
               <img src={svgVite} />
               <p>Vite</p>
             </div> */}
-          </div>
-          <div className={Styles.SectionSkillRight}>
-            <img src={svgAvatar} />
           </div>
         </div>
       </div>
