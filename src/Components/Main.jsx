@@ -12,7 +12,7 @@ function Main() {
           </div>
         </div>
         <div className={Styles.mainRight}>
-          <h6>Desenvolvedor web</h6>
+          <h6>Desenvolvedor mobile android</h6>
           <div>
             <h1>Olá, eu sou</h1>
             <h1 className={Styles.animation}>
