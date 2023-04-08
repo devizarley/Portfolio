@@ -5,14 +5,40 @@ section.sectionProjects {
   width: 100%;
 }
 .sectionProjects img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   cursor: pointer;
   border-radius: 10px;
+}
+img.buttonA{
+  padding: 5px;
+  margin-top: 20px;
+  width: 170px;
+  height: 70px;
+}
+img.buttonW{
+  padding: 5px;
+  width: 170px;
+  height: 70px;
+}
+img.buttonG{
+  padding: 5px;
+  width: 170px;
+  height: 70px;
+}
+.wiper-pagination {
+  margin-bottom: 500px;
+}
+.containerSwiper {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction: column;
 }
 .sectionProjects h1 {
   font-size: 43px;
   font-family: "MuseoModerno", sans-serif;
+  /*font-family: "Jura", sans-serif;*/
   text-align: center;
   margin-bottom: 5vh;
 }

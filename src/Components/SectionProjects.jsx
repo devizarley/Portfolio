@@ -4,7 +4,12 @@ import Styles from "./Styles/SectionProjects.module.css";
 import "swiper/css/bundle";
 import "./Styles/Slide.css";
 import imgCert01 from "./img/certificado-udemy-web.jpg";
-import imgLoading from "./img/loading.png";
+import imgInstagram from "./img/loading.png";
+import imgWhatsapp from "./img/whatsapp.png";
+import imgOrganizze from "./img/organizze.png";
+import imgAndroid from "./img/googleplay.png"
+import imgWindows from "./img/windows.png"
+import imgGithub from "./img/githubButton.png"
 
 function SectionProjects() {
   return (
@@ -15,18 +20,33 @@ function SectionProjects() {
           modules={[Navigation, Pagination, A11y]}
           slidesPerView={1}
           navigation
-          pagination={{ clickable: true }}
           a11y={true}
           loop={true}
+          
         >
-          <SwiperSlide>
-            <img src={imgLoading} alt="" />
+          <SwiperSlide className={Styles.containerSwiper}>
+            <img src={imgInstagram} alt="" />
+            <div>
+              <img src={imgAndroid} className={Styles.buttonA} alt=""/>
+              <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Instagram" target="_blank"><img src={imgWindows} className={Styles.buttonW} alt=""/></a>
+              <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Instagram" target="_blank"><img src={imgGithub} className={Styles.buttonG} alt=""/></a>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={imgLoading} alt="" />
+          <SwiperSlide className={Styles.containerSwiper}>
+            <img src={imgWhatsapp} alt="" />
+            <div>
+              <img src={imgAndroid} className={Styles.buttonA} alt=""/>
+              <a href="https://github.com/devizarley/Projects-Mobile/tree/main/WhatsApp" target="_blank"><img src={imgWindows} className={Styles.buttonW} alt=""/></a>
+              <a href="https://github.com/devizarley/Projects-Mobile/tree/main/WhatsApp" target="_blank"><img src={imgGithub} className={Styles.buttonG} alt=""/></a>
+            </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <img src={imgLoading} alt="" />
+          <SwiperSlide className={Styles.containerSwiper}>
+            <img src={imgOrganizze} alt="" />
+            <div>
+              <img src={imgAndroid} className={Styles.buttonA} alt=""/>
+              <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Organizze" target="_blank"><img src={imgWindows} className={Styles.buttonW} alt=""/></a>
+              <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Organizze" target="_blank"><img src={imgGithub} className={Styles.buttonG} alt=""/></a>
+            </div>
           </SwiperSlide>
         </Swiper>
       </div>
