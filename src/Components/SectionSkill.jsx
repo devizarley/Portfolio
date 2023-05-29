@@ -7,7 +7,7 @@ import svgAvatar from "./img/avatar.svg";
 
 function SectionSkill() {
   return (
-    <section className={Styles.sectionSkill}>
+    <section className={Styles.sectionSkill} id="habilidades">
       <div className={Styles.containerSectionSkill}>
         <h1>Habilidades atuais</h1>
         <div className={Styles.containerContentSkill}>

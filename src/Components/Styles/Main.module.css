@@ -6,6 +6,17 @@
 main {
   width: 100%;
 }
+.aprMain img,svg {
+  height: 40px;
+  width: 40px;
+}
+
+.aprMain {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
 .containerMain {
   display: flex;
   justify-content: center;
@@ -22,7 +33,7 @@ main {
   color: #ffff;
   font-size: 64px;
   font-family: "MuseoModerno", sans-serif;
-  width: 580px;
+  margin-right: 10px;
   line-height: 66px;
 }
 .mainRight div {

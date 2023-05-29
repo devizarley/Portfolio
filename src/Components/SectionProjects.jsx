@@ -10,10 +10,11 @@ import imgOrganizze from "./img/organizze.png";
 import imgAndroid from "./img/googleplay.png"
 import imgWindows from "./img/windows.png"
 import imgGithub from "./img/githubButton.png"
+import imgGif from "./img/instagram.gif"
 
 function SectionProjects() {
   return (
-    <section className={Styles.sectionProjects}>
+    <section className={Styles.sectionProjects} id="projetos">
       <div className={Styles.containerSectionProjects}>
         <h1>PROJETOS ATUAIS</h1>
         <Swiper
@@ -26,6 +27,14 @@ function SectionProjects() {
         >
           <SwiperSlide className={Styles.containerSwiper}>
             <img src={imgInstagram} alt="" />
+            <div>
+              <img src={imgAndroid} className={Styles.buttonA} alt=""/>
+              <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Instagram" target="_blank"><img src={imgWindows} className={Styles.buttonW} alt=""/></a>
+              <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Instagram" target="_blank"><img src={imgGithub} className={Styles.buttonG} alt=""/></a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide className={Styles.containerSwiper}>
+            <img src={imgGif} alt="" />
             <div>
               <img src={imgAndroid} className={Styles.buttonA} alt=""/>
               <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Instagram" target="_blank"><img src={imgWindows} className={Styles.buttonW} alt=""/></a>
