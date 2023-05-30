@@ -27,7 +27,7 @@ function Main() {
             nisso! Atualmente sendo especializado em aplicações android na
             linguagem Java/Kotlin!.
           </p>
-          <Button button="CONFIRA MEUS PROJETOS"></Button>
+          <a href="#projetos"><Button button="CONFIRA MEUS PROJETOS"></Button></a>
         </div>
       </div>
     </main>
