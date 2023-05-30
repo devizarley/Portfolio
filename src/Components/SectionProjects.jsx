@@ -4,13 +4,12 @@ import Styles from "./Styles/SectionProjects.module.css";
 import "swiper/css/bundle";
 import "./Styles/Slide.css";
 import imgCert01 from "./img/certificado-udemy-web.jpg";
-import imgInstagram from "./img/loading.png";
-import imgWhatsapp from "./img/whatsapp.png";
-import imgOrganizze from "./img/organizze.png";
+import imgInstagram from "./img/instagram.gif";
+import imgWhatsapp from "./img/whatsapp.gif";
+import imgOrganizze from "./img/organizze.gif";
 import imgAndroid from "./img/googleplay.png"
 import imgWindows from "./img/windows.png"
 import imgGithub from "./img/githubButton.png"
-import imgGif from "./img/instagram.gif"
 
 function SectionProjects() {
   return (
@@ -23,18 +22,9 @@ function SectionProjects() {
           navigation
           a11y={true}
           loop={true}
-          
         >
           <SwiperSlide className={Styles.containerSwiper}>
             <img src={imgInstagram} alt="" />
-            <div>
-              <img src={imgAndroid} className={Styles.buttonA} alt=""/>
-              <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Instagram" target="_blank"><img src={imgWindows} className={Styles.buttonW} alt=""/></a>
-              <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Instagram" target="_blank"><img src={imgGithub} className={Styles.buttonG} alt=""/></a>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className={Styles.containerSwiper}>
-            <img src={imgGif} alt="" />
             <div>
               <img src={imgAndroid} className={Styles.buttonA} alt=""/>
               <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Instagram" target="_blank"><img src={imgWindows} className={Styles.buttonW} alt=""/></a>
