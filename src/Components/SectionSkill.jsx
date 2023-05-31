@@ -4,6 +4,7 @@ import imgKotlin from "./img/icon-kotlin.png";
 import imgFirebase from "./img/icon-firebase.png";
 import imgSqlite from "./img/icon-sqlite.png";
 import svgAvatar from "./img/avatar.svg";
+import iconGit from "./img/iconGit"
 
 function SectionSkill() {
   return (
@@ -27,6 +28,10 @@ function SectionSkill() {
             <div>
               <img src={imgSqlite} />
               <p>SQLite</p>
+            </div>
+            <div>
+              <img src={iconGit} />
+              <p>Git</p>
             </div>
           </div>
           <div className={Styles.SectionSkillRight}>
