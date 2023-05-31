@@ -60,6 +60,15 @@ img.buttonG{
     padding: 150px 10px;
     width: 100%;
   }
+  div.containerMt img{
+    margin-top: 10px;
+    width: 110px;
+    height: 50px;
+  }
+  .sectionProjects img {
+    width: 100%;
+    height: 70%;
+  }
   .sectionProjects h1 {
     font-size: 20px;
   }

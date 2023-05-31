@@ -4,7 +4,7 @@ import Styles from "./Styles/SectionCertificates.module.css";
 import "swiper/css/bundle";
 import "./Styles/Slide.css";
 import imgCert01 from "./img/certificado-udemy-web.jpg";
-import imgLoading from "./img/loading.png";
+import imgLoading from "./img/loading.svg";
 
 function SectionCertificates() {
   return (
@@ -19,13 +19,13 @@ function SectionCertificates() {
           a11y={true}
           loop={true}
         >
-          <SwiperSlide>
+          <SwiperSlide className={Styles.containerSwiper}>
             <img src={imgCert01} alt="" />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className={Styles.containerSwiper}>
             <img src={imgLoading} alt="" />
           </SwiperSlide>
-          <SwiperSlide>
+          <SwiperSlide className={Styles.containerSwiper}>
             <img src={imgLoading} alt="" />
           </SwiperSlide>
         </Swiper>

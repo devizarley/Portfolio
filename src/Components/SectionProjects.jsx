@@ -20,13 +20,13 @@ function SectionProjects() {
           modules={[Navigation, Pagination, A11y]}
           slidesPerView={1}
           navigation
-          a11y={true}
+          a11y={false}
           loop={true}
         >
           <SwiperSlide className={Styles.containerSwiper}>
             <img src={imgInstagram} alt="" />
-            <div>
-              <img src={imgAndroid} className={Styles.buttonA} alt=""/>
+            <div className={Styles.containerMt}>
+              {/*<img src={imgAndroid} className={Styles.buttonA} alt=""/>*/}
               <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Instagram" target="_blank"><img src={imgWindows} className={Styles.buttonW} alt=""/></a>
               <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Instagram" target="_blank"><img src={imgGithub} className={Styles.buttonG} alt=""/></a>
             </div>
@@ -34,7 +34,7 @@ function SectionProjects() {
           <SwiperSlide className={Styles.containerSwiper}>
             <img src={imgWhatsapp} alt="" />
             <div>
-              <img src={imgAndroid} className={Styles.buttonA} alt=""/>
+              {/*<img src={imgAndroid} className={Styles.buttonA} alt=""/>*/}
               <a href="https://github.com/devizarley/Projects-Mobile/tree/main/WhatsApp" target="_blank"><img src={imgWindows} className={Styles.buttonW} alt=""/></a>
               <a href="https://github.com/devizarley/Projects-Mobile/tree/main/WhatsApp" target="_blank"><img src={imgGithub} className={Styles.buttonG} alt=""/></a>
             </div>
@@ -42,7 +42,7 @@ function SectionProjects() {
           <SwiperSlide className={Styles.containerSwiper}>
             <img src={imgOrganizze} alt="" />
             <div>
-              <img src={imgAndroid} className={Styles.buttonA} alt=""/>
+              {/*<img src={imgAndroid} className={Styles.buttonA} alt=""/>*/}
               <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Organizze" target="_blank"><img src={imgWindows} className={Styles.buttonW} alt=""/></a>
               <a href="https://github.com/devizarley/Projects-Mobile/tree/main/Organizze" target="_blank"><img src={imgGithub} className={Styles.buttonG} alt=""/></a>
             </div>
