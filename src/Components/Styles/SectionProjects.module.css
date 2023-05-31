@@ -53,6 +53,11 @@ img.buttonG{
   display: flex;
   flex-direction: column;
 }
+div.containerMt img{
+  margin-top: 20px;
+}
+
+
 @media (max-width: 600px) {
   section.sectionProjects {
     height: 100%;
