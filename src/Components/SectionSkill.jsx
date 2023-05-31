@@ -4,7 +4,7 @@ import imgKotlin from "./img/icon-kotlin.png";
 import imgFirebase from "./img/icon-firebase.png";
 import imgSqlite from "./img/icon-sqlite.png";
 import svgAvatar from "./img/avatar.svg";
-import iconGit from "./img/iconGit"
+import iconGit from "./img/icon_git.png"
 
 function SectionSkill() {
   return (
