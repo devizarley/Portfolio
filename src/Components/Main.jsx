@@ -14,7 +14,7 @@ function Main() {
           </div>
         </div>
         <div className={Styles.mainRight}>
-          <h6>Desenvolvedor mobile android</h6>
+          <h6>Desenvolvedor Front-end e Mobile</h6>
           <div>
             <h1>Olá, eu sou</h1> 
             <h1 className={Styles.animation}>
@@ -22,10 +22,11 @@ function Main() {
             </h1>
           </div>
           <p>
-            Seja bem vindo(a), procurando um desenvolvedor especializado em aplicações android
-            qualificado e focado para suprir suas necessidades? Posso te ajudar
-            nisso! Atualmente sendo especializado em aplicações android na
-            linguagem Java/Kotlin!.
+            Seja bem vindo(a), sou um desenvolvedor especializado com amplo 
+            conhecimento em linguagens do Front-End como React.js, Next.js e Vite.js. 
+            Sou apaixonado por programação desde que descobri essas tecnologias fascinantes, e
+            tenho dedicado meu tempo a aprimorar minhas habilidades e criar projetos inovadores e de qualidade, sempre buscando entregar soluções livres de bugs.
+            Procurando um desenvolvedor qualificado e focado para suprir suas necessidades? Posso te ajudar nisso!
           </p>
           <a href="#projetos"><Button button="CONFIRA MEUS PROJETOS"></Button></a>
         </div>

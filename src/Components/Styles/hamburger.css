@@ -78,3 +78,20 @@
     justify-content: flex-end;
   }
 }
+@media (max-width: 493px) {
+  .menu.menuOpen {
+    margin: 0px 0 0 0;
+  }
+  .hamburger {
+    width: 30px;
+    height: 2px;
+  }
+  .hamburger::before {
+    width: 30px;
+    height: 2px;
+  }
+  .hamburger::after {
+    width: 30px;
+    height: 2px;
+  }
+} 

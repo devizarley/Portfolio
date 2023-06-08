@@ -5,12 +5,14 @@ import imgJS from "./img/javascript.png";
 import imgReact from "./img/react.png";
 import imgNext from "./img/nextjs.png";
 import svgAvatar from "./img/avatar.svg";
+import svgVite from "./img/Vite.svg"
+import iconGit from "./img/icon_git.png"
 
 function SectionSkill() {
   return (
     <section className={Styles.sectionSkill}>
       <div className={Styles.containerSectionSkill}>
-        <h1>Conhecimentos atuais</h1>
+        <h1>Front-end</h1>
         <div className={Styles.containerContentSkill}>
           <div className={Styles.SectionSkillRight}>
             <img src={svgAvatar} />
@@ -36,10 +38,14 @@ function SectionSkill() {
               <img src={imgNext} />
               <p>Next.Js</p>
             </div>
-            {/* <div>
+            <div>
+              <img src={iconGit} />
+              <p>Git</p>
+            </div>
+            <div>
               <img src={svgVite} />
               <p>Vite</p>
-            </div> */}
+            </div> 
           </div>
         </div>
       </div>

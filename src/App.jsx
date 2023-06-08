@@ -17,8 +17,8 @@ function App() {
       <Header />
       <Networks />
       <Main />
-      <SectionSkills />
       <SectionAcquirements />
+      <SectionSkills />
       <SectionProjects />
       <SectionCertificates />
       <Footer />
